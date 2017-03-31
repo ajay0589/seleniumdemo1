@@ -24,6 +24,10 @@ public class LoginFlip {
 		
 	}
 	
+	public void test1(){
+		System.out.println("hello Ajay");
+	}
+	
 	@Test(dataProvider="fKartLogin") 
 	public void login(String username,String password) throws Exception
 	{
