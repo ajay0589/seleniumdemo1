@@ -23,10 +23,7 @@ public class LoginFlip {
 		driver.manage().window().maximize();
 		
 	}
-	
-	public void test1(){
-		System.out.println("hello Ajay");
-	}
+
 	
 	@Test(dataProvider="fKartLogin") 
 	public void login(String username,String password) throws Exception
